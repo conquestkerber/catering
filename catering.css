@@ -1,0 +1,170 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* header */
+header 
+{
+    background-color: wheat;
+    color:black;
+    position:fixed;
+    width:100%;
+}
+header .logo{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display:inline-block;
+}
+header .links{
+    float:right;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+header .logo a
+{
+    text-decoration: none;
+    padding: 15px;
+    background-color: wheat;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+header .logo a:hover{
+    background-color: beige;
+}
+header .links a
+{
+    text-decoration: none;
+    padding: 15px;
+    background-color: wheat;
+    margin-left: 10px;
+}
+header .links a:hover{
+    background-color: beige;
+}
+/* picture */
+.picture img{
+    width:100%;
+    height:700px;
+    margin-bottom:30px;
+}
+
+/* about-catering */
+#about-catering
+{
+    display:flex;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+#about-catering .image-item img{
+    margin-left: 100px;
+}
+
+#about-catering .tekst{
+    text-align:center;
+    margin-left: 100px;
+    margin-right: 116px;
+}
+#about-catering .tekst .aboute{
+   margin-bottom: 26px;
+}
+#about-catering .tekst .tekst1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ #about-catering .tekst .tekst1 .seasonal{
+    background-color: aqua;
+ }
+ #about-catering .tekst .tekst2{
+    color: rgba(0,0,0,0.3);
+ }
+ /* our menu */
+ #our-menu
+ {
+    display:flex;
+    margin-top:100px;
+    margin-bottom: 100px;
+ }
+ #our-menu img
+ {
+    width:500px;
+    height:750px;
+    margin-left:300px;
+ }
+ #our-menu .tekst .aboute
+ {
+    text-align: center;
+    padding-left: 170px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+ }
+ #our-menu .meni{
+     padding-bottom: 60px;
+ }
+ #our-menu .meni h3
+ {
+    padding-left: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+ }
+ #our-menu .meni p
+ {
+    padding-left: 60px;
+    padding-bottom: 20px;
+ }
+ .tackice p{
+     border-bottom: 1px solid rgba(0,0,0,0.3); 
+     margin-bottom: 50px;
+ }
+
+ /* input-class */
+ #input-class
+ {
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ #input-class h1{
+     margin-left:50px;
+     margin-bottom: 50px;
+ }
+ #input-class .full{
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+#input-class h4{
+    margin-left:50px;
+    margin-bottom: 20px;
+    color:rgba(0,0,0,0.3);
+}
+#input-class p
+{
+    margin-left:50px;
+}
+#input-class input{
+    margin-left:50px;
+    width:90%;
+    border:none;
+    padding: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+#input-class button{
+    margin-left: 70px;
+    padding:10px 17px;
+    background-color: rgba(0,0,0,0.3);
+}
+/* picture-two */
+.picture-two img
+{
+    width:100%;
+}
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+    margin-top: -4px;
+    padding: 20px;
+}
